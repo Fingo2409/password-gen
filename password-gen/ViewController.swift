@@ -4,6 +4,7 @@
 //
 //  Created by Joshua Schrader on 21.03.21.
 //
+//  Icon made by Gregor Cresnar from www.flaticon.com
 
 import Cocoa
 
