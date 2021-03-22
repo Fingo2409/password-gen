@@ -41,6 +41,7 @@
 		03A7E6F9260761BC00B3A10B = {
 			isa = PBXGroup;
 			children = (
+				033207DF26082E2E004BFE47 /* LICENCE */,
 				03A7E704260761BC00B3A10B /* password-gen */,
 				03A7E703260761BC00B3A10B /* Products */,
 			);
@@ -64,7 +65,6 @@
 				03A7E70B260761BD00B3A10B /* Main.storyboard */,
 				03A7E70E260761BD00B3A10B /* Info.plist */,
 				03A7E70F260761BD00B3A10B /* password_gen.entitlements */,
-				033207DF26082E2E004BFE47 /* LICENCE */,
 			);
 			path = "password-gen";
 			sourceTree = "<group>";
