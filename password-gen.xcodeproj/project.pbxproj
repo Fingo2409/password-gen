@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0308EAB22607F7D300EFDEEB /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0308EAB12607F7D300EFDEEB /* words.txt */; };
+		033207E026082E2E004BFE47 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 033207DF26082E2E004BFE47 /* LICENCE */; };
+		0378EBD62608245B006D7F5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7E707260761BC00B3A10B /* ViewController.swift */; };
 		03A7E706260761BC00B3A10B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7E705260761BC00B3A10B /* AppDelegate.swift */; };
-		03A7E708260761BC00B3A10B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7E707260761BC00B3A10B /* ViewController.swift */; };
 		03A7E70A260761BD00B3A10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A7E709260761BD00B3A10B /* Assets.xcassets */; };
 		03A7E70D260761BD00B3A10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A7E70B260761BD00B3A10B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0308EAB12607F7D300EFDEEB /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		033207DF26082E2E004BFE47 /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		03A7E702260761BC00B3A10B /* password-gen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "password-gen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A7E705260761BC00B3A10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A7E707260761BC00B3A10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,12 +57,14 @@
 		03A7E704260761BC00B3A10B /* password-gen */ = {
 			isa = PBXGroup;
 			children = (
+				0308EAB12607F7D300EFDEEB /* words.txt */,
 				03A7E705260761BC00B3A10B /* AppDelegate.swift */,
 				03A7E707260761BC00B3A10B /* ViewController.swift */,
 				03A7E709260761BD00B3A10B /* Assets.xcassets */,
 				03A7E70B260761BD00B3A10B /* Main.storyboard */,
 				03A7E70E260761BD00B3A10B /* Info.plist */,
 				03A7E70F260761BD00B3A10B /* password_gen.entitlements */,
+				033207DF26082E2E004BFE47 /* LICENCE */,
 			);
 			path = "password-gen";
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A7E70A260761BD00B3A10B /* Assets.xcassets in Resources */,
+				0308EAB22607F7D300EFDEEB /* words.txt in Resources */,
+				033207E026082E2E004BFE47 /* LICENCE in Resources */,
 				03A7E70D260761BD00B3A10B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A7E708260761BC00B3A10B /* ViewController.swift in Sources */,
+				0378EBD62608245B006D7F5C /* ViewController.swift in Sources */,
 				03A7E706260761BC00B3A10B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +268,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -281,6 +290,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "wtf.madness.password-gen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,6 +312,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "wtf.madness.password-gen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
